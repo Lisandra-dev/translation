@@ -3,8 +3,11 @@
 This repository contains all locale for translating Obsidian GitHub Publisher.
 
 > [!WARNING]
-> DO NOT USE THE FILE [model_empty.json](model_empty.json).
+> DO NOT USE THE FILE [_model.json](_model.json).
 > This file is a model and must be keeped as it is.
+
+## Directive
+
 
 ## How to contribute
 
@@ -15,7 +18,7 @@ This repository contains all locale for translating Obsidian GitHub Publisher.
 5. Create a pull request
 
 ## Adding a new translation 
-- Use the file [model_empty.json](model_empty.json) as a model
+- Use the file [_model.json](_model.json) as a model
 - Create a new file with the name of the locale in the format `locale.json`
 - Translate the file using the english file as a reference
 - Save the file
