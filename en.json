@@ -115,8 +115,8 @@
     "scanningRepo": "Scanning the repository, may take a while...",
     "sendMessage": "Upload <i>{{- nbNotes}}</i> notes to <u>{{- repo.owner}}/{{- repo.repo}}</u>",
     "startingClean": "Starting cleaning <u>{{- repo.owner}}/{{- repo.repo}}</u>",
-    "successfulPublish": "Successfully uploaded <i>{{- nbNotes}}</i> to <u>{{- repo.owner}}/{{- repo.repo}}</u>",
     "successPublishOneNote": "Successfully uploaded <i><u>{{- file}}</u></i> to <u>{{- repo.owner}}/{{- repo.repo}}</u>",
+    "successfulPublish": "Successfully uploaded <i>{{- nbNotes}}</i> to <u>{{- repo.owner}}/{{- repo.repo}}</u>",
     "waitingWorkflow": "Now, waiting for the workflow to be completed..."
   },
   "modals": {
@@ -151,7 +151,8 @@
     }
   },
   "ommands": {
-    "checkValidity": {}
+    "checkValidity": {
+    }
   },
   "publish": {
     "branch": {
@@ -389,6 +390,10 @@
         "desc": "If you want to activate a GitHub action when the plugin push the file, set the name of the file (in your .github/worfklows folder). Only workflow with the \"workflow_dispatch\" event will be triggered.",
         "title": "GitHub action name"
       },
+      "includeAttachments": {
+        "desc": "Attachments will also be auto-cleaned among other notes.",
+        "title": "Self-cleaning of attachments"
+      },
       "prRequest": {
         "desc": "The message send when the pull-request is merged. Will always followed by the pull-request number.",
         "error": "You can't use an empty string here!",
@@ -428,7 +433,7 @@
           "send": "Send embedded note to GitHub"
         },
         "hardBreak": "Convert all linebreaks to markdown «hard break».",
-        "includeLinks": "",
+        "includeLinks": "Allows sending files linked by a simple link, such as",
         "internals": "Convert internals links to their counterpart in the website, with relative path. Disabled, the plugin will keep the internal link as is.",
         "mdlinks": "Convert all ",
         "nestedKey": "It's also possible to use \"dot\" syntax, i.e. to denote nested keys with dots. For example, using ",
@@ -462,7 +467,8 @@
         "title": "Useful links"
       }
     },
-    "overrides": {},
+    "overrides": {
+    },
     "plugin": {
       "copyLink": {
         "applyRegex": {
