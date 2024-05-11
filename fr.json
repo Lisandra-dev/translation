@@ -79,10 +79,8 @@
     "yes": "Oui"
   },
   "deletion": {
-    "defaultFolder": "Vous avez besoin d'un dossier par défaut dans les paramètres pour utiliser cette commande.",
     "failed": "Échec de la suppression de {{- nb}} notes.",
     "noFile": "Aucun fichier n'a été supprimé.",
-    "rootFolder": "Vous devez configurer un dossier racine dans les paramètres pour utiliser cette commande.",
     "success": "Suppression réussie de {{- nb}} fichiers."
   },
   "error": {
@@ -251,9 +249,7 @@
       "forcePush": {
         "all": "Utiliser {{all}} pour modifier la destination de toutes les pièces jointes (et/ou forcer leur envoie).",
         "default": "Utiliser {{default}} pour utiliser le chemin de destination par défaut.",
-        "desc": "Les extensions suivantes seront toujours publiées, quelque soit la dernière date d'envoi.",
         "info": "Par défaut, les pièces-jointes ne sont envoyés que si elles ont été modifiées depuis leur dernier envoi, ou si elles n'existent pas dans le dépôt.",
-        "separateByComma": "Séparez les extensions par des virgules. \nVous pouvez utiliser regex en l'entourant avec \"/\", comme /regex/. Utilisez {{all}} pour forcer l'envoi de toutes les pièces jointes.",
         "title": "Forcer l'envoi des pièces-jointes"
       },
       "imagePath": {
@@ -495,7 +491,6 @@
         },
         "title": "Copie de lien",
         "toLowerCase": {
-          "desc": "Convertir le lien en minuscule"
         },
         "toUri": {
           "desc": "Convertir le lien en URI (remplacer par un encodage en \"percent-encoding\")",
@@ -585,7 +580,6 @@
     "upload": {
       "defaultFolder": {
         "desc": "Définir le dossier de réception par défaut. Laisser vide pour utiliser la racine du dépôt.",
-        "other": "Utilisez ce dossier comme racine dans le référentiel (chaque chemin sera précédé de ce nom)",
         "placeholder": "docs",
         "title": "Dossier par défaut"
       },

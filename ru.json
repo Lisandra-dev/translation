@@ -79,10 +79,8 @@
     "yes": ""
   },
   "deletion": {
-    "defaultFolder": "",
     "failed": "",
     "noFile": "",
-    "rootFolder": "",
     "success": ""
   },
   "error": {
@@ -247,9 +245,7 @@
       "forcePush": {
         "all": "",
         "default": "",
-        "desc": "",
         "info": "",
-        "separateByComma": "",
         "title": ""
       },
       "imagePath": {
@@ -489,7 +485,6 @@
         },
         "title": "",
         "toLowerCase": {
-          "desc": ""
         },
         "toUri": {
           "desc": "",
@@ -579,7 +574,6 @@
     "upload": {
       "defaultFolder": {
         "desc": "",
-        "other": "",
         "placeholder": "",
         "title": ""
       },
