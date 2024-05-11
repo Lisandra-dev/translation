@@ -150,10 +150,6 @@
       "unpublished": "Cannot be published"
     }
   },
-  "ommands": {
-    "checkValidity": {
-    }
-  },
   "publish": {
     "branch": {
       "alreadyExists": "Branch already exists ({{- branchName}} on {{- repo.owner}}/{{- repo.repo}} - Using it.",
@@ -467,8 +463,7 @@
         "title": "Useful links"
       }
     },
-    "overrides": {
-    },
+    "overrides": {},
     "plugin": {
       "copyLink": {
         "applyRegex": {
