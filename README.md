@@ -8,6 +8,15 @@ This repository contains all locale for translating Obsidian GitHub Publisher.
 
 ## Directive
 
+- By default, the keys are automatically added when new function are added ;
+- The translation is, by default, empty. You must use the english language to translate the string.
+- Don't translate the `{{variable}}` used in some translation!
+
+You can test the translation in the main plugin using the directive of developping here.
+
+> [!NOTE]
+> English is not the main language of @Lisandra-dev and some string can be inaccurate in english. If you need, you can use the french translation as a reference. If you notice some spelling mistake, the correction is also welcome!
+
 
 ## How to contribute
 
@@ -23,3 +32,6 @@ This repository contains all locale for translating Obsidian GitHub Publisher.
 - Translate the file using the english file as a reference
 - Save the file
 - Create a pull request
+
+
+The translation use [Weblate](https://weblate.org) to manage the translations. You can access the translation project [here](https://hosted.weblate.org/projects/obsidian-github-publisher/).
