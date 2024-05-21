@@ -13,11 +13,11 @@
             },
             "rateLimit": {
                 "command": "GitHub API의 속도 제한을 확인하세요",
-                "limited": "",
-                "notLimited": ""
+                "limited": "GitHub API의 속도 제한에 도달했습니다. 제한은 {{- resetTime}}으로 재설정됩니다.",
+                "notLimited": "속도 제한이 적용되지 않았습니다. 제한이 {{- resetTime}}으로 재설정되기 전에 {{- remaining}}번의 요청을 할 수 있습니다."
             },
-            "repoExistsTestBranch": "",
-            "success": "",
+            "repoExistsTestBranch": "{{- repo.owner}}/{{- repo.repo}} 저장소가 존재합니다. 이제 {{- repo.branch}} 브랜치를 확인하겠습니다.",
+            "success": "{{- repo.owner}}/{{-repo.repo}}는 사용 가능합니다!",
             "title": ""
         },
         "copyLink": {
