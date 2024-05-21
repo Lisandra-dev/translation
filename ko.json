@@ -3,16 +3,16 @@
         "checkValidity": {
             "error": "잘못된 설정",
             "inBranch": {
-                "error403": "",
-                "error404": ""
+                "error403": "오류 403: {{- repo.owner}}/{{- repo.repo}}가 {{- repo.branch}}에서 영구적으로 이동되었습니다.",
+                "error404": "오류 404: 브랜치 {{- repo.branch}}는 {{-repo.owner}}/{{- repo.repo}}에 존재하지 않습니다."
             },
             "inRepo": {
-                "error301": "",
-                "error403": "",
-                "error404": ""
+                "error301": "오류 301: {{- repo.owner}}/{{-repo.repo}}가 영구적으로 이동되었습니다.",
+                "error403": "오류 403: 이 동작은 {{- repo.owner}}/{{- repo.repo}}에서 금지되었습니다.",
+                "error404": "오류 404: {{- repo.owner}}/{{- repo.repo}}는 존재하지 않습니다."
             },
             "rateLimit": {
-                "command": "",
+                "command": "GitHub API의 속도 제한을 확인하세요",
                 "limited": "",
                 "notLimited": ""
             },
