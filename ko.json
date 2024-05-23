@@ -18,11 +18,11 @@
             },
             "repoExistsTestBranch": "{{- repo.owner}}/{{- repo.repo}} 저장소가 존재합니다. 이제 {{- repo.branch}} 브랜치를 확인하겠습니다.",
             "success": "{{- repo.owner}}/{{-repo.repo}}는 사용 가능합니다!",
-            "title": ""
+            "title": "설정된 저장소와의 연결 테스트"
         },
         "copyLink": {
-            "onActivation": "",
-            "title": ""
+            "onActivation": "링크가 클립보드에 복사됨",
+            "title": "이 노트에 링크 만들기"
         },
         "publisherDeleteClean": "",
         "refreshAllSets": "",
