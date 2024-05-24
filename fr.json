@@ -66,7 +66,7 @@
       "folder": "Chemin du dossier",
       "full": "Chemin du fichier"
     },
-    "points": " : ",
+    "points": ": ",
     "published": "publiés",
     "regex": "regex",
     "rename": "Clé(s) renommée(s)…",
@@ -409,7 +409,7 @@
         },
         "convert": {
           "enableOrDisable": "Active ou désactive la conversion des liens. En désactivant cette option, vous supprimez les",
-          "syntax": "syntaxes, tout en gardant le nom du fichier ou son texte alternatif."
+          "syntax": "syntaxes, tout en gardant le nom du fichier ou son text alternatif."
         },
         "dataview": "Convertit les requêtes dataview en markdown.",
         "desc": "Il existe quelques clés de propriétés qui peuvent vous êtes utile. Le code ci-dessous montre les paramètres par défaut, mais n'hésitez pas à le modifier selon vos besoins pour chaque note !",
@@ -446,7 +446,7 @@
       },
       "multiRepoHelp": {
         "desc": "Si vous souhaitez envoyer vos notes dans plusieurs dépôt en même temps, vous pouvez utiliser la clé ",
-        "desc2": "dans vos propriétés. La valeur de cette clé doit être une liste. Chaque dépôt doit avoir les clés suivantes :",
+        "desc2": "dans vos propriétés. La valeur de cette clé doit être une liste. Chaque dépôt doit avoir les clés suivantes ",
         "exampleDesc": "Le code ci-dessous montre un exemple basé sur vos paramètres.",
         "title": "Envoie dans plusieurs dépôt"
       },
@@ -456,8 +456,7 @@
         "documentation": "Documentation (en anglais)",
         "issue": "Issue",
         "links": "https://obsidian-publisher.netlify.app",
-        "title": "Liens utiles",
-        "translation": "Aider à la traduction"
+        "title": "Liens utiles"
       }
     },
     "plugin": {
