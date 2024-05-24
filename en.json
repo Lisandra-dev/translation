@@ -69,7 +69,7 @@
     "points": ": ",
     "published": "published",
     "regex": "regex",
-    "rename": "Renamed key(s)...",
+    "rename": "Renamed key(s)…",
     "repository": "Repository",
     "rootFolder": "root folder",
     "save": "Save",
@@ -104,18 +104,18 @@
   "informations": {
     "foundNoteToSend": "Found {{- nbNotes}} new notes to send",
     "migrating": {
-      "fileReplace": "Migration of filename replace to the new format...",
-      "normalFormat": "Migrating settings...",
-      "oldSettings": "Migration of old settings to new settings format...",
-      "subFolder": "Adding replacing subfolder to the folderpath replacement..."
+      "fileReplace": "Migration of filename replace to the new format…",
+      "normalFormat": "Migrating settings…",
+      "oldSettings": "Migration of old settings to new settings format…",
+      "subFolder": "Adding replacing subfolder to the folderpath replacement…"
     },
     "noNewNote": "No new notes to upload.",
-    "scanningRepo": "Scanning the repository, may take a while...",
+    "scanningRepo": "Scanning the repository, may take a while…",
     "sendMessage": "Upload <i>{{- nbNotes}}</i> notes to <u>{{- repo.owner}}/{{- repo.repo}}</u>",
     "startingClean": "Starting cleaning <u>{{- repo.owner}}/{{- repo.repo}}</u>",
     "successPublishOneNote": "Successfully uploaded <i><u>{{- file}}</u></i> to <u>{{- repo.owner}}/{{- repo.repo}}</u>",
     "successfulPublish": "Successfully uploaded <i>{{- nbNotes}}</i> to <u>{{- repo.owner}}/{{- repo.repo}}</u>",
-    "waitingWorkflow": "Now, waiting for the workflow to be completed..."
+    "waitingWorkflow": "Now, waiting for the workflow to be completed…"
   },
   "modals": {
     "export": {
@@ -131,7 +131,7 @@
         "span": "Error importing configuration: "
       },
       "importFromFile": "Import from file",
-      "paste": "Paste configuration here...",
+      "paste": "Paste configuration here…",
       "presets": {
         "desc": "Load presets from the repository \"plugin-presets\"",
         "title": "Presets"
@@ -456,10 +456,10 @@
         "documentation": "Documentation",
         "issue": "Issue",
         "links": "https://obsidian-publisher.netlify.app/",
-        "title": "Useful links"
+        "title": "Useful links",
+        "translation": "Help with translation"
       }
     },
-    "overrides": {},
     "plugin": {
       "copyLink": {
         "applyRegex": {
@@ -485,7 +485,6 @@
           "title": "Link slugify"
         },
         "title": "Copy link",
-        "toLowerCase": {},
         "toUri": {
           "desc": "Convert the link to a URI (substitute into percent-encoding)",
           "title": "Encode to URI"
@@ -541,7 +540,7 @@
         },
         "desc": "The YAML frontmatter key to publish your file on the website. Default is `share`.",
         "excludedFileName": {
-          "title": "Exclude files with names starting with ..."
+          "title": "Exclude files with names starting with…"
         },
         "otherRepo": "You can also define a share key to separate with others, without using the shortRepo key.",
         "title": "Share key"
@@ -568,7 +567,7 @@
           "text": "Text replacer"
         }
       },
-      "momentReplaceRegex": "Run replacement {{- moment}} the other plugin conversion (dataview, internals links...)",
+      "momentReplaceRegex": "Run replacement {{- moment}} the other plugin conversion (dataview, internals links…)",
       "warningPath": "Warning! Using the character \"/\" will edit the path, be careful with this option."
     },
     "upload": {
@@ -616,7 +615,7 @@
   },
   "statusBar": {
     "counter": "{{- msg}}: {{- counter}}/{{- nb}}",
-    "loading": "Loading...",
+    "loading": "Loading…",
     "markedForSharing": "{{- nb}} {{- type}} marked for sharing",
     "sharing": "Sharing {{- type}}",
     "success": "{{- type}} {{- action}}"
