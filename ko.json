@@ -26,10 +26,10 @@
         },
         "publisherDeleteClean": "게시되지 않거나 삭제된 파일 제거",
         "refreshAllSets": "",
-        "refreshOpenedSet": "",
+        "refreshOpenedSet": "(다른 저장소): 열려 있는 프론트매터 새로고침",
         "runOtherRepo": {
-            "noFile": "",
-            "title": ""
+            "noFile": "활성화된 파일이 없거나 파일이 공유되지 않음",
+            "title": "저장소에서 명령 실행"
         },
         "shareActiveFile": "",
         "shareViewFiles": {
