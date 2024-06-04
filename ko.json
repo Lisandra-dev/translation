@@ -58,7 +58,7 @@
         "files": "파일",
         "ghToken": "깃허브 토큰",
         "here": "여기",
-        "in": "",
+        "in": "안에",
         "no": "아니오",
         "or": "또는",
         "path": {
@@ -70,22 +70,22 @@
         "published": "게시됨",
         "regex": "",
         "rename": "",
-        "repository": "",
-        "rootFolder": "",
-        "save": "",
-        "shared": "",
-        "text": "",
-        "warning": "",
-        "yes": ""
+        "repository": "저장소",
+        "rootFolder": "루트 폴더",
+        "save": "저장",
+        "shared": "공유됨",
+        "text": "텍스트",
+        "warning": "경고",
+        "yes": "예"
     },
     "deletion": {
-        "failed": "",
-        "noFile": "",
-        "success": ""
+        "failed": "{{- nv}} 파일을 삭제하는 데 실패했습니다.",
+        "noFile": "어떤 파일도 삭제되지 않았습니다.",
+        "success": "{{- nb}} 파일을 성공적으로 삭제했습니다."
     },
     "error": {
-        "alreadyExists": "",
-        "autoClean": "",
+        "alreadyExists": "{{- file}}이 이미 존재합니다.",
+        "autoClean": "{{- what}}이 비어있어서 자동 정리가 비활성화되었습니다. 다시 활성화할 수 있지만, 템플릿에 필요한 파일 삭제에 주의하세요.",
         "dataview": "",
         "errorConfig": "",
         "errorPublish": "",
