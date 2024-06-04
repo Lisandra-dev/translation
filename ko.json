@@ -25,49 +25,49 @@
             "title": "이 노트에 링크 만들기"
         },
         "publisherDeleteClean": "게시되지 않거나 삭제된 파일 제거",
-        "refreshAllSets": "",
+        "refreshAllSets": "(기타 저장소): 저장된 모든 세트 다시 불러오기",
         "refreshOpenedSet": "(다른 저장소): 열려 있는 프론트매터 새로고침",
         "runOtherRepo": {
             "noFile": "활성화된 파일이 없거나 파일이 공유되지 않음",
             "title": "저장소에서 명령 실행"
         },
-        "shareActiveFile": "",
+        "shareActiveFile": "현재 활성화된 노트 업로드",
         "shareViewFiles": {
             "multiple": {
-                "on": "",
-                "other": ""
+                "on": "{{-doc}}를 {{-smartKey}}에 업로드",
+                "other": "...에 업로드"
             }
         },
-        "uploadAllEditedNote": "",
-        "uploadAllNewEditedNote": "",
-        "uploadAllNotes": "",
-        "uploadNewNotes": ""
+        "uploadAllEditedNote": "모든 게시된 노트 새로고침",
+        "uploadAllNewEditedNote": "개시된 노트 새로고침 및 새로운 노트 업로드",
+        "uploadAllNotes": "모든 공유된 노트 업로드",
+        "uploadNewNotes": "게시되지 않은 노트 업로드"
     },
     "common": {
-        "add": "",
-        "after": "",
-        "attachments": "",
-        "before": "",
-        "cancel": "",
-        "close": "",
-        "default": "",
-        "defaultName": "",
-        "delete": "",
-        "edit": "",
-        "error": "",
-        "files": "",
-        "ghToken": "",
-        "here": "",
+        "add": "{{-things}} 추가",
+        "after": "다음",
+        "attachments": "첨부파일",
+        "before": "이전",
+        "cancel": "취소",
+        "close": "닫기",
+        "default": "기본 설정",
+        "defaultName": "기본 폴더",
+        "delete": "{{- things}} 삭제",
+        "edit": "{{- things}} 수정",
+        "error": "오류",
+        "files": "파일",
+        "ghToken": "깃허브 토큰",
+        "here": "여기",
         "in": "",
-        "no": "",
-        "or": "",
+        "no": "아니오",
+        "or": "또는",
         "path": {
-            "file": "",
-            "folder": "",
-            "full": ""
+            "file": "파일 이름",
+            "folder": "폴더 경로",
+            "full": "파일 경로"
         },
-        "points": "",
-        "published": "",
+        "points": ": ",
+        "published": "게시됨",
         "regex": "",
         "rename": "",
         "repository": "",
