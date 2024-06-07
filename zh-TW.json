@@ -1,623 +1,623 @@
 {
-  "commands": {
-    "checkValidity": {
-      "error": "",
-      "inBranch": {
-        "error403": "",
-        "error404": ""
-      },
-      "inRepo": {
-        "error301": "",
-        "error403": "",
-        "error404": ""
-      },
-      "rateLimit": {
-        "command": "",
-        "limited": "",
-        "notLimited": ""
-      },
-      "repoExistsTestBranch": "",
-      "success": "",
-      "title": ""
-    },
-    "copyLink": {
-      "onActivation": "",
-      "title": ""
-    },
-    "publisherDeleteClean": "",
-    "refreshAllSets": "",
-    "refreshOpenedSet": "",
-    "runOtherRepo": {
-      "noFile": "",
-      "title": ""
-    },
-    "shareActiveFile": "",
-    "shareViewFiles": {
-      "multiple": {
-        "on": "",
-        "other": ""
-      }
-    },
-    "uploadAllEditedNote": "",
-    "uploadAllNewEditedNote": "",
-    "uploadAllNotes": "",
-    "uploadNewNotes": ""
-  },
-  "common": {
-    "add": "",
-    "after": "",
-    "attachments": "",
-    "before": "",
-    "cancel": "",
-    "close": "",
-    "default": "",
-    "defaultName": "",
-    "delete": "",
-    "edit": "",
-    "error": "",
-    "files": "",
-    "ghToken": "",
-    "here": "",
-    "in": "",
-    "no": "",
-    "or": "",
-    "path": {
-      "file": "",
-      "folder": "",
-      "full": ""
-    },
-    "points": "",
-    "published": "",
-    "regex": "",
-    "rename": "",
-    "repository": "",
-    "rootFolder": "",
-    "save": "",
-    "shared": "",
-    "text": "",
-    "warning": "",
-    "yes": ""
-  },
-  "deletion": {
-    "failed": "",
-    "noFile": "",
-    "success": ""
-  },
-  "error": {
-    "alreadyExists": "",
-    "autoClean": "",
-    "dataview": "",
-    "errorConfig": "",
-    "errorPublish": "",
-    "isEmpty": "",
-    "mergeconflic": "",
-    "normal": "",
-    "parseYaml": "",
-    "reading-token-file": "",
-    "unablePublishMultiNotes": "",
-    "unablePublishNote": "",
-    "whatEmpty": {
-      "branch": "",
-      "owner": ""
-    }
-  },
-  "informations": {
-    "foundNoteToSend": "",
-    "migrating": {
-      "fileReplace": "",
-      "normalFormat": "",
-      "oldSettings": "",
-      "subFolder": ""
-    },
-    "noNewNote": "",
-    "scanningRepo": "",
-    "sendMessage": "",
-    "startingClean": "",
-    "successPublishOneNote": "",
-    "successfulPublish": "",
-    "waitingWorkflow": ""
-  },
-  "modals": {
-    "export": {
-      "copy": "",
-      "desc": "",
-      "download": "",
-      "title": ""
-    },
-    "import": {
-      "desc": "",
-      "error": {
-        "isEmpty": "",
-        "span": ""
-      },
-      "importFromFile": "",
-      "paste": "",
-      "presets": {
-        "desc": "",
-        "title": ""
-      },
-      "title": ""
-    },
-    "listChangedFiles": {
-      "added": "",
-      "deleted": "",
-      "edited": "",
-      "error": "",
-      "notDeleted": "",
-      "title": "",
-      "unpublished": ""
-    }
-  },
-  "publish": {
-    "branch": {
-      "alreadyExists": "",
-      "error": "",
-      "prMessage": "",
-      "success": ""
-    }
-  },
-  "regex": {
-    "entry": "",
-    "replace": ""
-  },
-  "settings": {
-    "conversion": {
-      "dataview": {
-        "desc": "",
-        "title": ""
-      },
-      "desc": "",
-      "hardBreak": {
-        "desc": "",
-        "title": ""
-      },
-      "links": {
-        "desc": "",
-        "folderNote": {
-          "desc": "",
-          "title": ""
-        },
-        "internals": {
-          "dataview": "",
-          "desc": "",
-          "shareAll": "",
-          "title": ""
-        },
-        "nonShared": {
-          "desc": "",
-          "title": ""
-        },
-        "slugify": {
-          "desc": "",
-          "disable": "",
-          "lower": "",
-          "strict": "",
-          "title": ""
-        },
-        "title": "",
-        "wikilinks": {
-          "desc": "",
-          "title": ""
-        }
-      },
-      "sectionTitle": "",
-      "tags": {
-        "desc": "",
-        "exclude": {
-          "desc": "",
-          "placeholder": "",
-          "title": ""
-        },
-        "inlineTags": {
-          "desc": "",
-          "title": ""
-        },
-        "title": ""
-      },
-      "title": ""
-    },
-    "embed": {
-      "attachment": "",
-      "bake": {
-        "text": "",
-        "textAfter": {
-          "title": ""
-        },
-        "textBefore": {
-          "title": ""
-        },
-        "title": "",
-        "variable": {
-          "desc": "",
-          "title": "",
-          "url": ""
-        },
-        "warning": ""
-      },
-      "char": {
-        "desc": "",
-        "title": ""
-      },
-      "defaultImageFolder": {
-        "desc": "",
-        "title": ""
-      },
-      "forcePush": {
-        "all": "",
-        "default": "",
-        "info": "",
-        "title": ""
-      },
-      "imagePath": {
-        "desc": "",
-        "title": ""
-      },
-      "links": {
-        "desc": "",
-        "dp": {
-          "bake": "",
-          "keep": "",
-          "links": "",
-          "remove": ""
-        },
-        "title": ""
-      },
-      "notes": "",
-      "overrides": {
-        "desc": "",
-        "modal": {
-          "dest": "",
-          "path": "",
-          "title": ""
-        }
-      },
-      "sendSimpleLinks": {
-        "desc": "",
-        "title": ""
-      },
-      "title": "",
-      "transferImage": {
-        "title": ""
-      },
-      "transferMetaFile": {
-        "desc": "",
-        "title": ""
-      },
-      "transferNotes": {
-        "desc": "",
-        "title": ""
-      }
-    },
-    "embeds": {
-      "unHandledObsidianExt": {
-        "desc": "",
-        "title": ""
-      }
-    },
-    "github": {
-      "apiType": {
-        "desc": "",
-        "dropdown": {
-          "enterprise": "",
-          "free": ""
-        },
-        "hostname": {
-          "desc": "",
-          "title": ""
-        },
-        "title": ""
-      },
-      "automaticallyMergePR": "",
-      "branch": {
-        "desc": "",
-        "title": ""
-      },
-      "dryRun": {
-        "enable": {
-          "desc": "",
-          "title": ""
-        },
-        "folder": {
-          "desc": "",
-          "title": ""
-        }
-      },
-      "ghToken": {
-        "button": {
-          "configDir": "",
-          "default": "",
-          "description": "",
-          "pluginID": "",
-          "tooltip": "",
-          "variables": ""
-        },
-        "desc": "",
-        "error": ""
-      },
-      "repoName": {
-        "desc": "",
-        "placeholder": "",
-        "title": ""
-      },
-      "smartRepo": {
-        "button": "",
-        "modals": {
-          "default": "",
-          "desc": "",
-          "duplicate": "",
-          "empty": "",
-          "frontmatterInfo": "",
-          "newRepo": "",
-          "otherConfig": "",
-          "shortcuts": {
-            "desc": "",
+    "commands": {
+        "checkValidity": {
+            "error": "錯誤配置",
+            "inBranch": {
+                "error403": "",
+                "error404": ""
+            },
+            "inRepo": {
+                "error301": "",
+                "error403": "",
+                "error404": ""
+            },
+            "rateLimit": {
+                "command": "",
+                "limited": "",
+                "notLimited": ""
+            },
+            "repoExistsTestBranch": "",
+            "success": "",
             "title": ""
-          },
-          "title": ""
-        }
-      },
-      "testConnection": "",
-      "title": "",
-      "username": {
-        "desc": "",
-        "title": ""
-      }
+        },
+        "copyLink": {
+            "onActivation": "",
+            "title": ""
+        },
+        "publisherDeleteClean": "",
+        "refreshAllSets": "",
+        "refreshOpenedSet": "",
+        "runOtherRepo": {
+            "noFile": "",
+            "title": ""
+        },
+        "shareActiveFile": "",
+        "shareViewFiles": {
+            "multiple": {
+                "on": "",
+                "other": "上載至…"
+            }
+        },
+        "uploadAllEditedNote": "",
+        "uploadAllNewEditedNote": "",
+        "uploadAllNotes": "",
+        "uploadNewNotes": ""
     },
-    "githubWorkflow": {
-      "autoCleanUp": {
-        "desc": "",
-        "popup": {
-          "desc": "",
-          "exclude": "",
-          "sure": "",
-          "title": ""
+    "common": {
+        "add": "",
+        "after": "以後",
+        "attachments": "附件",
+        "before": "以前",
+        "cancel": "取消",
+        "close": "關閉",
+        "default": "預設",
+        "defaultName": "預設資料夾",
+        "delete": "",
+        "edit": "",
+        "error": "錯誤",
+        "files": "檔案",
+        "ghToken": "GitHub 令牌",
+        "here": "這裏",
+        "in": "",
+        "no": "否",
+        "or": "或",
+        "path": {
+            "file": "檔案名稱",
+            "folder": "資料夾路徑",
+            "full": "檔案路徑"
         },
-        "title": ""
-      },
-      "excludedFiles": {
-        "desc": "",
-        "title": ""
-      },
-      "githubAction": {
-        "desc": "",
-        "title": ""
-      },
-      "includeAttachments": {
-        "desc": "",
-        "title": ""
-      },
-      "prRequest": {
-        "desc": "",
-        "error": "",
-        "title": ""
-      },
-      "useMetadataExtractor": {
-        "desc": "",
-        "title": ""
-      }
+        "points": "： ",
+        "published": "已發佈",
+        "regex": "正規表達式",
+        "rename": "",
+        "repository": "儲存庫",
+        "rootFolder": "根資料夾",
+        "save": "儲存",
+        "shared": "已分享",
+        "text": "",
+        "warning": "警告",
+        "yes": "是"
     },
-    "help": {
-      "frontmatter": {
-        "attachment": {
-          "folder": "",
-          "send": ""
-        },
-        "autoclean": "",
-        "baselink": {
-          "desc": "",
-          "remove": ""
-        },
-        "convert": {
-          "enableOrDisable": "",
-          "syntax": ""
-        },
+    "deletion": {
+        "failed": "",
+        "noFile": "",
+        "success": ""
+    },
+    "error": {
+        "alreadyExists": "",
+        "autoClean": "",
         "dataview": "",
-        "desc": "",
-        "embed": {
-          "char": "",
-          "remove": {
-            "bake": "",
+        "errorConfig": "",
+        "errorPublish": "",
+        "isEmpty": "",
+        "mergeconflic": "",
+        "normal": "",
+        "parseYaml": "",
+        "reading-token-file": "",
+        "unablePublishMultiNotes": "",
+        "unablePublishNote": "",
+        "whatEmpty": {
+            "branch": "分支",
+            "owner": "擁有者"
+        }
+    },
+    "informations": {
+        "foundNoteToSend": "",
+        "migrating": {
+            "fileReplace": "",
+            "normalFormat": "正在遷移設定…",
+            "oldSettings": "",
+            "subFolder": ""
+        },
+        "noNewNote": "",
+        "scanningRepo": "",
+        "sendMessage": "",
+        "startingClean": "",
+        "successPublishOneNote": "",
+        "successfulPublish": "",
+        "waitingWorkflow": ""
+    },
+    "modals": {
+        "export": {
+            "copy": "",
             "desc": "",
-            "keep": "",
-            "links": "",
-            "remove": ""
-          },
-          "send": ""
+            "download": "下載",
+            "title": "匯出設定"
         },
-        "hardBreak": "",
-        "includeLinks": "",
-        "internals": "",
-        "mdlinks": "",
-        "nestedKey": "",
-        "nonShared": "",
-        "path": "",
-        "repo": {
-          "branch": "",
-          "desc": "",
-          "owner": ""
+        "import": {
+            "desc": "",
+            "error": {
+                "isEmpty": "",
+                "span": ""
+            },
+            "importFromFile": "",
+            "paste": "",
+            "presets": {
+                "desc": "",
+                "title": "預設集"
+            },
+            "title": "匯入設定"
         },
-        "share": {
-          "other": "",
-          "title": ""
-        },
-        "shortRepo": "",
-        "title": "",
-        "titleKey": ""
-      },
-      "multiRepoHelp": {
-        "desc": "",
-        "desc2": "",
-        "exampleDesc": "",
-        "title": ""
-      },
-      "title": "",
-      "usefulLinks": {
-        "discussion": "",
-        "documentation": "",
-        "issue": "",
-        "links": "",
-        "title": "",
-        "translation": ""
-      }
+        "listChangedFiles": {
+            "added": "已新增",
+            "deleted": "已刪除",
+            "edited": "已編輯",
+            "error": "錯誤",
+            "notDeleted": "",
+            "title": "",
+            "unpublished": ""
+        }
     },
-    "plugin": {
-      "copyLink": {
-        "applyRegex": {
-          "desc": "",
-          "title": ""
-        },
-        "baselink": {
-          "desc": "",
-          "title": ""
-        },
-        "command": {
-          "desc": ""
-        },
-        "desc": "",
-        "linkPathRemover": {
-          "desc": "",
-          "title": ""
-        },
-        "slugify": {
-          "disable": "",
-          "lower": "",
-          "strict": "",
-          "title": ""
-        },
-        "title": "",
-        "toUri": {
-          "desc": "",
-          "title": ""
+    "publish": {
+        "branch": {
+            "alreadyExists": "",
+            "error": "",
+            "prMessage": "",
+            "success": ""
         }
-      },
-      "dev": {
-        "desc": "",
-        "title": ""
-      },
-      "editorMenu": {
-        "desc": "",
-        "title": ""
-      },
-      "embedEditRepo": {
-        "desc": "",
-        "title": ""
-      },
-      "excludedFolder": {
-        "desc": "",
-        "title": ""
-      },
-      "fileMenu": {
-        "desc": "",
-        "title": ""
-      },
-      "head": {
-        "copyLinks": "",
-        "log": "",
-        "menu": "",
-        "other": "",
-        "share": ""
-      },
-      "logNoticeHeader": {
-        "desc": "",
-        "title": ""
-      },
-      "saveTab": {
-        "desc": "",
-        "title": ""
-      },
-      "set": {
-        "desc": "",
-        "title": ""
-      },
-      "setImport": {
-        "desc": "",
-        "title": ""
-      },
-      "shareKey": {
-        "all": {
-          "desc": "",
-          "title": ""
-        },
-        "desc": "",
-        "excludedFileName": {
-          "title": ""
-        },
-        "otherRepo": "",
-        "title": ""
-      },
-      "title": ""
     },
-    "regexReplacing": {
-      "empty": "",
-      "emptyRegex": "",
-      "forbiddenValue": "",
-      "inCodeBlocks": {
-        "runIn": "",
-        "runOut": ""
-      },
-      "invalidRegex": "",
-      "modal": {
-        "desc": "",
-        "force": "",
-        "keywords": "",
-        "name": "",
-        "title": {
-          "all": "",
-          "only": "",
-          "text": ""
-        }
-      },
-      "momentReplaceRegex": "",
-      "warningPath": ""
+    "regex": {
+        "entry": "",
+        "replace": ""
     },
-    "upload": {
-      "defaultFolder": {
-        "desc": "",
-        "placeholder": "",
-        "title": ""
-      },
-      "folderBehavior": {
-        "desc": "",
-        "fixedFolder": "",
-        "obsidianPath": "",
-        "title": "",
-        "yaml": ""
-      },
-      "folderNote": {
-        "addTitle": {
-          "key": "",
-          "title": ""
+    "settings": {
+        "conversion": {
+            "dataview": {
+                "desc": "",
+                "title": ""
+            },
+            "desc": "",
+            "hardBreak": {
+                "desc": "",
+                "title": ""
+            },
+            "links": {
+                "desc": "",
+                "folderNote": {
+                    "desc": "",
+                    "title": ""
+                },
+                "internals": {
+                    "dataview": "",
+                    "desc": "",
+                    "shareAll": "",
+                    "title": "內部連結"
+                },
+                "nonShared": {
+                    "desc": "",
+                    "title": ""
+                },
+                "slugify": {
+                    "desc": "",
+                    "disable": "停用",
+                    "lower": "",
+                    "strict": "",
+                    "title": ""
+                },
+                "title": "連結",
+                "wikilinks": {
+                    "desc": "",
+                    "title": ""
+                }
+            },
+            "sectionTitle": "正文",
+            "tags": {
+                "desc": "",
+                "exclude": {
+                    "desc": "",
+                    "placeholder": "欄位值",
+                    "title": ""
+                },
+                "inlineTags": {
+                    "desc": "",
+                    "title": ""
+                },
+                "title": ""
+            },
+            "title": "內容"
+        },
+        "embed": {
+            "attachment": "附件",
+            "bake": {
+                "text": "",
+                "textAfter": {
+                    "title": ""
+                },
+                "textBefore": {
+                    "title": ""
+                },
+                "title": "",
+                "variable": {
+                    "desc": "",
+                    "title": "",
+                    "url": ""
+                },
+                "warning": ""
+            },
+            "char": {
+                "desc": "",
+                "title": "嵌入字符"
+            },
+            "defaultImageFolder": {
+                "desc": "",
+                "title": ""
+            },
+            "forcePush": {
+                "all": "",
+                "default": "",
+                "info": "",
+                "title": ""
+            },
+            "imagePath": {
+                "desc": "",
+                "title": "結構"
+            },
+            "links": {
+                "desc": "",
+                "dp": {
+                    "bake": "",
+                    "keep": "沒有變更",
+                    "links": "",
+                    "remove": ""
+                },
+                "title": ""
+            },
+            "notes": "",
+            "overrides": {
+                "desc": "",
+                "modal": {
+                    "dest": "目的地",
+                    "path": "",
+                    "title": ""
+                }
+            },
+            "sendSimpleLinks": {
+                "desc": "",
+                "title": ""
+            },
+            "title": "",
+            "transferImage": {
+                "title": ""
+            },
+            "transferMetaFile": {
+                "desc": "",
+                "title": ""
+            },
+            "transferNotes": {
+                "desc": "",
+                "title": ""
+            }
+        },
+        "embeds": {
+            "unHandledObsidianExt": {
+                "desc": "",
+                "title": ""
+            }
+        },
+        "github": {
+            "apiType": {
+                "desc": "",
+                "dropdown": {
+                    "enterprise": "企業",
+                    "free": "免費／專業／團隊（預設）"
+                },
+                "hostname": {
+                    "desc": "",
+                    "title": ""
+                },
+                "title": "API 類型"
+            },
+            "automaticallyMergePR": "",
+            "branch": {
+                "desc": "",
+                "title": "主分支"
+            },
+            "dryRun": {
+                "enable": {
+                    "desc": "",
+                    "title": "測試模式"
+                },
+                "folder": {
+                    "desc": "",
+                    "title": ""
+                }
+            },
+            "ghToken": {
+                "button": {
+                    "configDir": "",
+                    "default": "",
+                    "description": "",
+                    "pluginID": "",
+                    "tooltip": "",
+                    "variables": ""
+                },
+                "desc": "",
+                "error": ""
+            },
+            "repoName": {
+                "desc": "",
+                "placeholder": "",
+                "title": "儲存庫名稱"
+            },
+            "smartRepo": {
+                "button": "",
+                "modals": {
+                    "default": "",
+                    "desc": "",
+                    "duplicate": "",
+                    "empty": "",
+                    "frontmatterInfo": "",
+                    "newRepo": "",
+                    "otherConfig": "其他設定",
+                    "shortcuts": {
+                        "desc": "",
+                        "title": "捷徑"
+                    },
+                    "title": ""
+                }
+            },
+            "testConnection": "測試連接",
+            "title": "GitHub 配置",
+            "username": {
+                "desc": "",
+                "title": "GitHub 使用者名稱"
+            }
+        },
+        "githubWorkflow": {
+            "autoCleanUp": {
+                "desc": "",
+                "popup": {
+                    "desc": "",
+                    "exclude": "",
+                    "sure": "",
+                    "title": "啟用自動清理"
+                },
+                "title": ""
+            },
+            "excludedFiles": {
+                "desc": "",
+                "title": ""
+            },
+            "githubAction": {
+                "desc": "",
+                "title": ""
+            },
+            "includeAttachments": {
+                "desc": "",
+                "title": ""
+            },
+            "prRequest": {
+                "desc": "",
+                "error": "",
+                "title": "提交訊息"
+            },
+            "useMetadataExtractor": {
+                "desc": "",
+                "title": ""
+            }
+        },
+        "help": {
+            "frontmatter": {
+                "attachment": {
+                    "folder": "",
+                    "send": ""
+                },
+                "autoclean": "",
+                "baselink": {
+                    "desc": "",
+                    "remove": ""
+                },
+                "convert": {
+                    "enableOrDisable": "",
+                    "syntax": ""
+                },
+                "dataview": "",
+                "desc": "",
+                "embed": {
+                    "char": "",
+                    "remove": {
+                        "bake": "",
+                        "desc": "",
+                        "keep": "",
+                        "links": "",
+                        "remove": ""
+                    },
+                    "send": ""
+                },
+                "hardBreak": "",
+                "includeLinks": "",
+                "internals": "",
+                "mdlinks": "轉換全部 ",
+                "nestedKey": "",
+                "nonShared": "",
+                "path": "",
+                "repo": {
+                    "branch": "",
+                    "desc": "",
+                    "owner": ""
+                },
+                "share": {
+                    "other": "",
+                    "title": ""
+                },
+                "shortRepo": "",
+                "title": "",
+                "titleKey": ""
+            },
+            "multiRepoHelp": {
+                "desc": "",
+                "desc2": "",
+                "exampleDesc": "",
+                "title": ""
+            },
+            "title": "幫助",
+            "usefulLinks": {
+                "discussion": "討論",
+                "documentation": "文件",
+                "issue": "",
+                "links": "https://obsidian-publisher.netlify.app/",
+                "title": "有用的連結",
+                "translation": ""
+            }
+        },
+        "plugin": {
+            "copyLink": {
+                "applyRegex": {
+                    "desc": "",
+                    "title": ""
+                },
+                "baselink": {
+                    "desc": "",
+                    "title": ""
+                },
+                "command": {
+                    "desc": ""
+                },
+                "desc": "",
+                "linkPathRemover": {
+                    "desc": "",
+                    "title": ""
+                },
+                "slugify": {
+                    "disable": "停用",
+                    "lower": "小寫",
+                    "strict": "",
+                    "title": ""
+                },
+                "title": "複製連結",
+                "toUri": {
+                    "desc": "",
+                    "title": ""
+                }
+            },
+            "dev": {
+                "desc": "",
+                "title": ""
+            },
+            "editorMenu": {
+                "desc": "",
+                "title": "編輯器選單"
+            },
+            "embedEditRepo": {
+                "desc": "",
+                "title": ""
+            },
+            "excludedFolder": {
+                "desc": "",
+                "title": "已排除的資料夾"
+            },
+            "fileMenu": {
+                "desc": "",
+                "title": "檔案選單"
+            },
+            "head": {
+                "copyLinks": "",
+                "log": "",
+                "menu": "選單",
+                "other": "其他",
+                "share": "正在共享配置"
+            },
+            "logNoticeHeader": {
+                "desc": "",
+                "title": ""
+            },
+            "saveTab": {
+                "desc": "",
+                "title": "儲存分頁"
+            },
+            "set": {
+                "desc": "",
+                "title": ""
+            },
+            "setImport": {
+                "desc": "",
+                "title": ""
+            },
+            "shareKey": {
+                "all": {
+                    "desc": "",
+                    "title": ""
+                },
+                "desc": "",
+                "excludedFileName": {
+                    "title": ""
+                },
+                "otherRepo": "",
+                "title": "分享金鑰"
+            },
+            "title": ""
+        },
+        "regexReplacing": {
+            "empty": "",
+            "emptyRegex": "",
+            "forbiddenValue": "",
+            "inCodeBlocks": {
+                "runIn": "",
+                "runOut": ""
+            },
+            "invalidRegex": "",
+            "modal": {
+                "desc": "",
+                "force": "強制推送",
+                "keywords": "關鍵字",
+                "name": "",
+                "title": {
+                    "all": "",
+                    "only": "",
+                    "text": ""
+                }
+            },
+            "momentReplaceRegex": "",
+            "warningPath": ""
+        },
+        "upload": {
+            "defaultFolder": {
+                "desc": "",
+                "placeholder": "docs",
+                "title": "預設資料夾"
+            },
+            "folderBehavior": {
+                "desc": "",
+                "fixedFolder": "",
+                "obsidianPath": "",
+                "title": "",
+                "yaml": "屬性鍵"
+            },
+            "folderNote": {
+                "addTitle": {
+                    "key": "",
+                    "title": ""
+                }
+            },
+            "frontmatterKey": {
+                "desc": "",
+                "placeholder": "",
+                "title": "屬性鍵"
+            },
+            "regexFilePathTitle": {
+                "desc": "",
+                "title": {
+                    "FolderPathTitle": "",
+                    "titleOnly": ""
+                }
+            },
+            "rootFolder": {
+                "desc": "",
+                "other": "",
+                "title": "根資料夾"
+            },
+            "title": "檔案路徑",
+            "useFrontmatterTitle": {
+                "desc": "",
+                "title": ""
+            }
         }
-      },
-      "frontmatterKey": {
-        "desc": "",
-        "placeholder": "",
-        "title": ""
-      },
-      "regexFilePathTitle": {
-        "desc": "",
-        "title": {
-          "FolderPathTitle": "",
-          "titleOnly": ""
-        }
-      },
-      "rootFolder": {
-        "desc": "",
-        "other": "",
-        "title": ""
-      },
-      "title": "",
-      "useFrontmatterTitle": {
-        "desc": "",
-        "title": ""
-      }
+    },
+    "statusBar": {
+        "counter": "",
+        "loading": "正在載入…",
+        "markedForSharing": "",
+        "sharing": "",
+        "success": ""
     }
-  },
-  "statusBar": {
-    "counter": "",
-    "loading": "",
-    "markedForSharing": "",
-    "sharing": "",
-    "success": ""
-  }
 }
