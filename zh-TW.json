@@ -88,12 +88,12 @@
         "autoClean": "由於 {{- what}} 為空，因此自動清理功能被停用。你可以對其重新啟用，但是請小心避免刪除你要使用的模板檔案。",
         "dataview": "",
         "errorConfig": "配置 {{- repo.owner}}/{{- repo.repo}} 時發生錯誤。請檢查你的設定。",
-        "errorPublish": "",
-        "isEmpty": "",
-        "mergeconflic": "",
-        "normal": "",
+        "errorPublish": "上載至 <u>{{- repo.owner}}/{{- repo.repo}}</u> 時發生錯誤：<i>{{- repo.branch}}</i>",
+        "isEmpty": "{{- 什麼}} 為空。",
+        "mergeconflic": "拉取請求不可合併，你需要手動合併。",
+        "normal": "錯誤 404 是正常的！這意味著該檔案還不存在。別擔心 ❤️。",
         "parseYaml": "",
-        "reading-token-file": "",
+        "reading-token-file": "錯誤：路徑似乎不正確。",
         "unablePublishMultiNotes": "",
         "unablePublishNote": "",
         "whatEmpty": {
@@ -106,32 +106,32 @@
         "migrating": {
             "fileReplace": "",
             "normalFormat": "正在遷移設定…",
-            "oldSettings": "",
+            "oldSettings": "將舊設定遷移到新設定格式…",
             "subFolder": ""
         },
         "noNewNote": "",
-        "scanningRepo": "",
+        "scanningRepo": "正在掃描儲存庫，可能需要一些時間…",
         "sendMessage": "",
-        "startingClean": "",
-        "successPublishOneNote": "",
-        "successfulPublish": "",
-        "waitingWorkflow": ""
+        "startingClean": "正在開始清理 <u>{{- repo.owner}}/{{- repo.repo}}</u>",
+        "successPublishOneNote": "已成功上載 <i><u>{{- file}}</u></i> 至 <u>{{- repo.owner}}/{{- repo.repo}}</u>",
+        "successfulPublish": "已成功上載 <i>{{- nbNotes}}</i> 至 <u>{{- repo.owner}}/{{- repo.repo}}</u>",
+        "waitingWorkflow": "現在，等待工作流程完成…"
     },
     "modals": {
         "export": {
-            "copy": "",
-            "desc": "",
+            "copy": "複製至剪貼簿",
+            "desc": "匯出設定至剪貼簿或檔案。",
             "download": "下載",
             "title": "匯出設定"
         },
         "import": {
-            "desc": "",
+            "desc": "從文字或檔案匯入設定。注意：這將覆寫你目前的設定（使用者名稱、儲存庫名稱和令牌除外）。",
             "error": {
-                "isEmpty": "",
-                "span": ""
+                "isEmpty": "配置為空。",
+                "span": "匯入配置時發生錯誤： "
             },
-            "importFromFile": "",
-            "paste": "",
+            "importFromFile": "從檔案匯入",
+            "paste": "將配置貼上此處…",
             "presets": {
                 "desc": "",
                 "title": "預設集"
@@ -143,15 +143,15 @@
             "deleted": "已刪除",
             "edited": "已編輯",
             "error": "錯誤",
-            "notDeleted": "",
-            "title": "",
-            "unpublished": ""
+            "notDeleted": "無法刪除",
+            "title": "儲存庫中已編輯的檔案列表",
+            "unpublished": "無法發佈"
         }
     },
     "publish": {
         "branch": {
-            "alreadyExists": "",
-            "error": "",
+            "alreadyExists": "分支 {{-branchName}} 已經存在在 {{- repo.owner}}/{{- repo.repo}} 上—使用它。",
+            "error": "{{- repo.owner}}/{{- repo.repo}} 錯誤：{{- error}}",
             "prMessage": "",
             "success": ""
         }
