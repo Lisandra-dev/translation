@@ -3,38 +3,38 @@
         "checkValidity": {
             "error": "錯誤配置",
             "inBranch": {
-                "error403": "",
-                "error404": ""
+                "error403": "錯誤 403：{{- repo.owner}}/{{- repo.repo}} 已永久移動（來自 {{- repo.branch}}）。",
+                "error404": "錯誤 404：在 {{- repo.owner}}/{{- repo.repo}} 中找不到分支 {{- repo.branch}}。"
             },
             "inRepo": {
-                "error301": "",
-                "error403": "",
-                "error404": ""
+                "error301": "錯誤 301：{{- repo.owner}}/{{- repo.repo}} 已永久移動。",
+                "error403": "錯誤 403：禁止對 {{- repo.owner}}/{{- repo.repo}} 執行此操作。",
+                "error404": "錯誤 404：找不到 {{- repo.owner}}/{{- repo.repo}}。"
             },
             "rateLimit": {
-                "command": "",
-                "limited": "",
-                "notLimited": ""
+                "command": "檢查 GitHub API 的速率限制",
+                "limited": "你已達到 GitHub API 的速率限制。該限制將在 {{-resetTime}} 重置。",
+                "notLimited": "你不受到速率限制。你可以在 {{-resetTime}} 重置限制之前發出 {{-remaining}} 個請求。"
             },
-            "repoExistsTestBranch": "",
-            "success": "",
-            "title": ""
+            "repoExistsTestBranch": "儲存庫 {{- repo.owner}}/{{- repo.repo}} 存在。現在測試 {{- repo.branch}} 分支。",
+            "success": "{{- repo.owner}}/{{- repo.repo}} 似乎有效！",
+            "title": "測試與已配置儲存庫的連接"
         },
         "copyLink": {
-            "onActivation": "",
+            "onActivation": "連結已複製至剪貼簿",
             "title": ""
         },
-        "publisherDeleteClean": "",
+        "publisherDeleteClean": "清除已取消發佈和已刪除的檔案",
         "refreshAllSets": "",
         "refreshOpenedSet": "",
         "runOtherRepo": {
-            "noFile": "",
-            "title": ""
+            "noFile": "沒有檔案處於活動狀態或檔案並未共用",
+            "title": "為儲存庫執行指令"
         },
         "shareActiveFile": "",
         "shareViewFiles": {
             "multiple": {
-                "on": "",
+                "on": "將 {{- doc}} 上載至 {{- smartKey }}",
                 "other": "上載至…"
             }
         },
@@ -44,7 +44,7 @@
         "uploadNewNotes": ""
     },
     "common": {
-        "add": "",
+        "add": "新增 {{- things}}",
         "after": "以後",
         "attachments": "附件",
         "before": "以前",
@@ -52,8 +52,8 @@
         "close": "關閉",
         "default": "預設",
         "defaultName": "預設資料夾",
-        "delete": "",
-        "edit": "",
+        "delete": "刪除 {{- things}}",
+        "edit": "編輯 {{- things}}",
         "error": "錯誤",
         "files": "檔案",
         "ghToken": "GitHub 令牌",
@@ -79,15 +79,15 @@
         "yes": "是"
     },
     "deletion": {
-        "failed": "",
-        "noFile": "",
-        "success": ""
+        "failed": "無法刪除 {{- nb}} 個檔案。",
+        "noFile": "沒有檔案被刪除。",
+        "success": "已成功刪除 {{- nb}} 個檔案。"
     },
     "error": {
-        "alreadyExists": "",
-        "autoClean": "",
+        "alreadyExists": "{{- file}} 已經存在。",
+        "autoClean": "由於 {{- what}} 為空，因此自動清理功能被停用。你可以對其重新啟用，但是請小心避免刪除你要使用的模板檔案。",
         "dataview": "",
-        "errorConfig": "",
+        "errorConfig": "配置 {{- repo.owner}}/{{- repo.repo}} 時發生錯誤。請檢查你的設定。",
         "errorPublish": "",
         "isEmpty": "",
         "mergeconflic": "",
