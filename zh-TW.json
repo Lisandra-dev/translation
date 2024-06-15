@@ -536,43 +536,43 @@
             "shareKey": {
                 "all": {
                     "desc": "",
-                    "title": ""
+                    "title": "分享所有檔案"
                 },
-                "desc": "",
+                "desc": "用於在網站上發佈檔案的 YAML 前頁鍵。預設為「share」。",
                 "excludedFileName": {
-                    "title": ""
+                    "title": "排除檔案名稱以此開頭的…"
                 },
                 "otherRepo": "",
                 "title": "分享金鑰"
             },
-            "title": ""
+            "title": "插件設定"
         },
         "regexReplacing": {
             "empty": "",
             "emptyRegex": "",
-            "forbiddenValue": "",
+            "forbiddenValue": "{{-what}} 不能包含字元：{{-forbiddenChar}}",
             "inCodeBlocks": {
-                "runIn": "",
-                "runOut": ""
+                "runIn": "在程式碼區塊中運行",
+                "runOut": "未在程式碼區塊中運行"
             },
-            "invalidRegex": "",
+            "invalidRegex": "發生錯誤：{{- e}}",
             "modal": {
-                "desc": "",
+                "desc": "取代檔案中的文字為給定值。將文字括在「/」之間以使用正規表示式（即是：/regex/）。",
                 "force": "強制推送",
                 "keywords": "關鍵字",
-                "name": "",
+                "name": "：使用檔案名稱。",
                 "title": {
-                    "all": "",
-                    "only": "",
-                    "text": ""
+                    "all": "資料夾路徑和檔案名稱取代器",
+                    "only": "取代檔案名稱",
+                    "text": "文字取代器"
                 }
             },
             "momentReplaceRegex": "",
-            "warningPath": ""
+            "warningPath": "警告！使用字元「/」將編輯路徑，請小心使用此選項。"
         },
         "upload": {
             "defaultFolder": {
-                "desc": "",
+                "desc": "設定預設接收資料夾。將其留空以使用儲存庫的根目錄。",
                 "placeholder": "docs",
                 "title": "預設資料夾"
             },
@@ -580,25 +580,25 @@
                 "desc": "",
                 "fixedFolder": "",
                 "obsidianPath": "",
-                "title": "",
+                "title": "儲存庫中的檔案樹",
                 "yaml": "屬性鍵"
             },
             "folderNote": {
                 "addTitle": {
-                    "key": "",
-                    "title": ""
+                    "key": "使用「title」以外的鍵",
+                    "title": "自動新增「title」鍵與檔案名稱"
                 }
             },
             "frontmatterKey": {
                 "desc": "",
-                "placeholder": "",
+                "placeholder": "類別",
                 "title": "屬性鍵"
             },
             "regexFilePathTitle": {
-                "desc": "",
+                "desc": "如果文字位於「/」之間（即是：/regex/），它將被視為正規表示式。否則，它將被視為字串。",
                 "title": {
-                    "FolderPathTitle": "",
-                    "titleOnly": ""
+                    "FolderPathTitle": "對資料夾路徑或檔案名稱套用編輯（自動）",
+                    "titleOnly": "對檔案名稱套用編輯（自動）"
                 }
             },
             "rootFolder": {
