@@ -603,21 +603,21 @@
             },
             "rootFolder": {
                 "desc": "",
-                "other": "",
+                "other": "使用這個資料夾作為儲存庫中的根目錄（每個路徑都會在前面加上它）。",
                 "title": "根資料夾"
             },
             "title": "檔案路徑",
             "useFrontmatterTitle": {
-                "desc": "",
+                "desc": "使用一個屬性值產生檔案名稱。預設情況下，使用「title」。 ",
                 "title": ""
             }
         }
     },
     "statusBar": {
-        "counter": "",
+        "counter": "{{- msg}}：{{- counter}}／{{- nb}}",
         "loading": "正在載入…",
-        "markedForSharing": "",
-        "sharing": "",
-        "success": ""
+        "markedForSharing": "{{- nb}} {{- type}} 已標示為分享",
+        "sharing": "正在分享 {{- type}}",
+        "success": "{{- type}} {{- action}}"
     }
 }
