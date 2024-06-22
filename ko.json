@@ -86,27 +86,27 @@
     "error": {
         "alreadyExists": "{{- file}}이 이미 존재합니다.",
         "autoClean": "{{- what}}이 비어있어서 자동 정리가 비활성화되었습니다. 다시 활성화할 수 있지만, 템플릿에 필요한 파일 삭제에 주의하세요.",
-        "dataview": "",
-        "errorConfig": "",
-        "errorPublish": "",
-        "isEmpty": "",
-        "mergeconflic": "",
-        "normal": "",
-        "parseYaml": "",
-        "reading-token-file": "",
-        "unablePublishMultiNotes": "",
-        "unablePublishNote": "",
+        "dataview": "데이터뷰 쿼리를 렌더링할 수 없습니다. 데이터뷰 플러그인을 최신 버전으로 업데이트해 주세요.",
+        "errorConfig": "{{- repo.owner}}/{{- repo.repo}}를 구성하는 중 오류가 발생했습니다. 설정을 확인해 주세요.",
+        "errorPublish": "<u>{{- repo.owner}}/{{- repo.repo}}</u>로 업로드하는 중 오류가 발생했습니다: <i>{{- repo.branch}}</i>",
+        "isEmpty": "{{- what}}은 비어있습니다.",
+        "mergeconflic": "풀 리퀘스트를 병합할 수 없습니다. 수동으로 처리해야 합니다.",
+        "normal": "404 에러는 정상입니다! 이는 파일이 아직 존재하지 않는다는 의미입니다. 걱정하지 마세요❤️.",
+        "parseYaml": "Frontmatter에 태그 또는 제목을 추가하는 중 오류가 발생했습니다.\nDataview나 다른 플러그인이 이를 방해하고 있을 수 있습니다.\n이 단계는 건너뜁니다.",
+        "reading-token-file": "오류: 경로가 잘못된 것 같습니다.",
+        "unablePublishMultiNotes": "여러 노트를 업로드할 수 없습니다. 문제가 발생했습니다.",
+        "unablePublishNote": "노트 {{- file}}을 업로드할 수 없어 건너뜁니다",
         "whatEmpty": {
-            "branch": "",
-            "owner": ""
+            "branch": "브랜치",
+            "owner": "소유자"
         }
     },
     "informations": {
-        "foundNoteToSend": "",
+        "foundNoteToSend": "{{- nbNotes}}개의 새로운 노트를 전송할 예정입니다",
         "migrating": {
-            "fileReplace": "",
-            "normalFormat": "",
-            "oldSettings": "",
+            "fileReplace": "파일 이름을 새로운 형식으로 변경하는 마이그레이션…",
+            "normalFormat": "설정을 마이그레이션하는 중…",
+            "oldSettings": "이전 설정을 새 설정으로 마이그레이션…",
             "subFolder": ""
         },
         "noNewNote": "",
