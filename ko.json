@@ -586,38 +586,38 @@
             "folderNote": {
                 "addTitle": {
                     "key": "\"title\" 외의 키를 사용합니다",
-                    "title": ""
+                    "title": "파일 이름으로 \"title\" 키를 자동으로 추가합니다"
                 }
             },
             "frontmatterKey": {
-                "desc": "",
-                "placeholder": "",
-                "title": ""
+                "desc": "폴더의 값을 가져올 키를 설정합니다.",
+                "placeholder": "카테고리",
+                "title": "속성 키"
             },
             "regexFilePathTitle": {
-                "desc": "",
+                "desc": "텍스트가 \"/\"로 둘러싸인 경우 (예: /regex/), 정규 표현식으로 사용됩니다. 그렇지 않으면 문자열로 사용됩니다.",
                 "title": {
-                    "FolderPathTitle": "",
-                    "titleOnly": ""
+                    "FolderPathTitle": "폴더 경로나 파일명에 편집을 적용합니다 (자동으로)",
+                    "titleOnly": "파일명에 편집을 적용합니다(자동으로)"
                 }
             },
             "rootFolder": {
-                "desc": "",
-                "other": "",
-                "title": ""
+                "desc": "이 경로를 속성 키로 설정된 폴더에 추가합니다",
+                "other": "이 폴더를 저장소 내의 루트로 사용합니다 (각 경로는 이 폴더 앞에 추가됩니다).",
+                "title": "루트 폴더"
             },
-            "title": "",
+            "title": "파일 경로",
             "useFrontmatterTitle": {
-                "desc": "",
-                "title": ""
+                "desc": "속성 값으로 파일 이름을 생성합니다. 기본적으로 \"title\"이 사용됩니다. ",
+                "title": "파일 이름의 값을 가져올 키를 설정합니다"
             }
         }
     },
     "statusBar": {
-        "counter": "",
-        "loading": "",
-        "markedForSharing": "",
-        "sharing": "",
-        "success": ""
+        "counter": "{{- msg}}: {{- counter}}/{{- nb}}",
+        "loading": "로딩 중…",
+        "markedForSharing": "공유할 {{- nb}} {{- type}}",
+        "sharing": "{{- type}} 공유",
+        "success": "{{- type}} {{- action}}"
     }
 }
